@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <a href="#"><img class="logo1" src="image/logo%20blanco.png" alt="" style="width: 5vh;
+    margin-left: 2vh;"></a>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">Présentation</a></li>
+            <li><a href="projet.html">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open"><span class="material-icons-sharp">menu</span></button>
+        <button id="close"><span class="material-icons-sharp">close</span></button>
+    </div>
+</nav>
+
+<section class="contact" id="contact">
+    <div class="over">
+        <div class="container">
+            <h1>Me contacter</h1>
+            <p>Afin que je puisse vous recontacter dans les plus brefs délais, je vous prie de remplir ce formulaire</p>
+            <form action="https://formspree.io/f/mlezjkpr" method="post">
+                <input type="text" name="Nom" placeholder="Nom" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="text" name="Objet" placeholder="Objet" required>
+                <textarea name="Message" placeholder="Message" required></textarea>
+                <input type="submit" value="Envoyer" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <a href="#"><img class="logo2" src="image/logo%20blanco.png" alt=""></a>
+        <ul>
+            <li><a href="#" class="active">Accueil</a></li>
+            <li><a href="#presentaion">Présentation</a></li>
+            <li><a href="projet.html">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="socials">
+            <a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.github.com/" target="_blank"><i class="uil uil-envelopes"></i></a>
+            <a href="https://www.github.com/" target="_blank"><i class="uil uil-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="use.js"></script>
+</body>
+</html>

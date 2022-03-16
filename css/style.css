@@ -307,6 +307,14 @@ section.presentation .container .info .plus {
     color: var(--color-primary);
     cursor: pointer;
 }
+section.presentation .container .info p a {
+    list-style: none;
+    color: var(--color-primary);
+}
+section.presentation .container .info p a:hover {
+    color: var(--color-white);
+    transition: var(--transition);
+}
 
 section.presentation .container .info .plus:hover {
     text-decoration: underline;
@@ -361,9 +369,9 @@ section.competences .competence .item {
     transition: var(--transition);
 }
 
-section.competences .competence .item:hover {
-    background: var(--color-white);
-}
+/*section.competences .competence .item:hover {*/
+/*    background: var(--color-white);*/
+/*}*/
 
 section.competences .competence .progression {
     width: 100%;
@@ -380,43 +388,40 @@ section.competences .item .progress-bar {
 
 section.competences .item .progress-bar .progress {
     height: 100%;
-    width: 70%;
+    width: 80%;
     background: var(--color-primary);
 }
 
 section.competences .item:nth-child(2) .progress-bar .progress {
-    width: 60%;
+    width: 70%;
 }
 
 section.competences .item:nth-child(3) .progress-bar .progress {
-    width: 65%;
+    width: 75%;
 }
 section.competences .item .progress-bar .progress-1 {
     height: 100%;
-    width: 80%;
+    width: 90%;
     background: var(--color-primary);
 }
 
 section.competences .item:nth-child(2) .progress-bar .progress-1 {
-    width: 55%;
+    width: 75%;
 }
 
 section.competences .item:nth-child(3) .progress-bar .progress-1 {
-    width: 90%;
+    width: 55%;
 }
 section.competences .item .progress-bar .progress-2 {
     height: 100%;
-    width: 75%;
+    width: 80%;
     background: var(--color-primary);
 }
 
 section.competences .item:nth-child(2) .progress-bar .progress-2 {
-    width: 70%;
+    width: 95%;
 }
 
-section.competences .item:nth-child(3) .progress-bar .progress-2 {
-    width: 80%;
-}
 section.competences .item .progress-bar .progress-3 {
     height: 100%;
     width: 85%;
@@ -424,12 +429,9 @@ section.competences .item .progress-bar .progress-3 {
 }
 
 section.competences .item:nth-child(2) .progress-bar .progress-3 {
-    width: 65%;
+    width: 70%;
 }
 
-section.competences .item:nth-child(3) .progress-bar .progress-3 {
-    width: 95%;
-}
 
 
 section.contact {
